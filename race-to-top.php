@@ -113,7 +113,7 @@ class RaceToTop extends \WP_Widget {
 		}
 
 		$start_value = $ranking - count($display_leaderboard);
-		$content = "<ol start=\"$start_value\" style=\"list-style-type:decimal\">\n";
+		$content = "<ol start=\"$start_value\" style=\"list-style-type:decimal;padding-left: 1.5em;\">\n";
 		$display_leaderboard = array_reverse($display_leaderboard);
 		foreach ($display_leaderboard as $rank) {
 			$content .= "<li>${rank[1]} (${rank[0]})</li>\n";
