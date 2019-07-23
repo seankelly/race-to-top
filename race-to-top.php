@@ -45,7 +45,7 @@ class RaceToTop extends \WP_Widget {
 	</p>
 	<p>
 	<label for="<?php echo $this->get_field_id('count'); ?>">Count</label>
-	<input id="<?php echo $this->get_field_id('count'); ?>" class="widefat" name="<?php echo $this->get_field_name('count'); ?>" value="<?php echo $instance['count']; ?>" />
+	<input id="<?php echo $this->get_field_id('count'); ?>" class="widefat" name="<?php echo $this->get_field_name('count'); ?>" type="number" value="<?php echo $instance['count']; ?>" />
 	</p>
 	<p>
 	<label for="<?php echo $this->get_field_id('description'); ?>">Description</label>
