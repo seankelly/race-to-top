@@ -33,7 +33,7 @@ class RaceToTop extends \WP_Widget {
 			'title' => 'Race to Top',
 			'count' => 0,
 			'description' => '',
-			'leaderboard' => ''
+			'leaderboard' => [],
 		);
 
 		$instance = \wp_parse_args((array) $instance, $defaults);
